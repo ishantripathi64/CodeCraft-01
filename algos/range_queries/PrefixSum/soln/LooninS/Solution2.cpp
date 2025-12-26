@@ -6,6 +6,7 @@
 #include <vector>
 using std::vector;
 
+// Time Complexity: O(N) as we iterate through the entire array of nums
 class Solution {
 public:
   vector<int> runningSum(vector<int> &nums) {
